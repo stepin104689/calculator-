@@ -4,8 +4,7 @@ int sub(int num1, int num2);
 
 
 int main() 
-{  int x = 2;
-   int y = 3;
+{  int x, y;
 
   int (*cal[2])(int, int);
   cal[0] = sum;
